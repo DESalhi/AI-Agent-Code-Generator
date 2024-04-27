@@ -1,4 +1,3 @@
-```python
 import requests
 
 # Replace X with your access token
@@ -18,4 +17,3 @@ if response.status_code == 201:
     print('Item created successfully')
 else:
     print('Error creating item:', response.json())
-`
